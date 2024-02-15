@@ -1,0 +1,5 @@
+Method 4: Check /etc/X11/default-display-manager
+Open a terminal.
+
+Run the following command:
+cat /etc/X11/default-display-manager
