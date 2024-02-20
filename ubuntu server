@@ -7,3 +7,6 @@ cat /etc/X11/default-display-manager
 The output will show the default display manager.
 If it's something like /usr/sbin/gdm3, you are using Wayland. 
 If it's /usr/sbin/lightdm or /usr/sbin/gdm, you are likely using Xorg.
+
+using Wayland to automate it 
+rustdesk service file
