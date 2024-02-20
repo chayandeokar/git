@@ -10,3 +10,5 @@ If it's /usr/sbin/lightdm or /usr/sbin/gdm, you are likely using Xorg.
 
 using Wayland to automate it 
 rustdesk service file
+
+rustdesk --> to get id and password 
