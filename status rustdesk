@@ -1,0 +1,10 @@
+● rustdesk.service - RustDesk
+   Loaded: loaded (/etc/systemd/system/rustdesk.service; enabled; vendor preset: enabled)
+   Active: active (running) since Tue 2024-01-09 09:50:31 IST; 1 months 12 days ago
+ Main PID: 1631 (rustdesk)
+    Tasks: 36 (limit: 4915)
+   CGroup: /system.slice/rustdesk.service
+           ├─ 1631 /usr/bin/rustdesk --service
+           ├─ 8826 sudo -E XDG_RUNTIME_DIR=/run/user/1000 -u cai-ini-user python3 /usr/share/rustdesk/files/pynput_service.py /tmp/Rus
+           ├─ 8827 python3 /usr/share/rustdesk/files/pynput_service.py /tmp/RustDesk/pynput_service
+           └─15881 /usr/bin/rustdesk --server
