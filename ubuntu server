@@ -12,3 +12,5 @@ using Wayland to automate it
 rustdesk service file
 
 rustdesk --> to get id and password 
+
+wayland features are totoally different Xorg
